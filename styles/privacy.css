@@ -497,6 +497,10 @@ footer .contact-item .country {
 footer .contact-item .country span {
   margin-left: 8px;
 }
+footer .contact-item .country span img {
+  width: 21px;
+  height: 15px;
+}
 footer .contact-item .country.hide {
   opacity: 0;
 }

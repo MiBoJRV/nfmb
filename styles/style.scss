@@ -2798,6 +2798,7 @@ footer {
 
     .contact-info {
       max-width: 463px;
+      width: 100%;
       display: flex;
       flex-direction: column;
       gap: 16px;
@@ -2936,7 +2937,7 @@ footer {
 
         .empty {
           opacity: 0;
-          display: block;
+          display: none;
           @media only screen and (max-width: 991px) {
             display: none;
           }
@@ -2944,6 +2945,7 @@ footer {
       }
 
       a {
+        display: block;
         font-weight: 300;
         font-size: 16px;
         line-height: 131%;

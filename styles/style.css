@@ -2437,6 +2437,7 @@ footer .footer-info {
 }
 footer .footer-info .contact-info {
   max-width: 463px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -2562,7 +2563,7 @@ footer .contact-item address {
 }
 footer .contact-item address .empty {
   opacity: 0;
-  display: block;
+  display: none;
 }
 @media only screen and (max-width: 991px) {
   footer .contact-item address .empty {
@@ -2570,6 +2571,7 @@ footer .contact-item address .empty {
   }
 }
 footer .contact-item a {
+  display: block;
   font-weight: 300;
   font-size: 16px;
   line-height: 131%;
