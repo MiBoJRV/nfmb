@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 saveSelectedValue.call(activeLi);
                 errorMessage.textContent = ''; // Очищаємо повідомлення про помилку
             } else {
-                errorMessage.textContent = 'Please choose one of the answer options'; // Виводимо повідомлення про помилку
+                errorMessage.textContent = 'Bitte wählen Sie eine der Antwortmöglichkeiten'; // Виводимо повідомлення про помилку
             }
         } else if (target.tagName === 'LI' && !target.classList.contains('active')) {
             saveSelectedValue.call(target);
@@ -383,7 +383,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     if (seconds === 0) {
                         // document.getElementById('loader-sub').style.display = 'none';
                         document.getElementById('loader-spinner').style.display = 'none';
-                        submitBtn.textContent = 'START RECOVERY'
+                        submitBtn.textContent = 'WIEDERHERSTELLUNG STARTEN'
                         // Re-enable back button
                         window.onpopstate = null;
                     } else {
