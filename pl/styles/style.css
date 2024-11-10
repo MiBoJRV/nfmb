@@ -107,6 +107,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
+  text-align: center;
 }
 @media only screen and (max-width: 991px) {
   .take-survey .button-survey a {
@@ -307,7 +308,7 @@ header .content .logo a img {
   height: 38px;
 }
 header .content .menu {
-  max-width: 735px;
+  max-width: 760px;
   width: 100%;
 }
 @media only screen and (max-width: 991px) {
@@ -325,6 +326,10 @@ header .content .menu nav ul li {
   text-align: center;
   position: relative;
   padding: 18.5px 0;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 header .content .menu nav ul li:last-child {
   padding: 0;
@@ -526,6 +531,7 @@ header .content .button-survey a:active {
   color: #fff;
   box-shadow: 2px 2px 0 0 rgba(15, 21, 27, 0.2);
   background: #3EA9FF;
+  text-align: center;
 }
 .banner-logos .button-survey a:hover {
   box-shadow: 4px 4px 0 0 rgba(15, 21, 27, 0.5);
@@ -1102,6 +1108,7 @@ main {
   color: #fff;
   box-shadow: 2px 2px 0 0 rgba(15, 21, 27, 0.2);
   background: #3EA9FF;
+  text-align: center;
 }
 .how .key .button-survey a:hover {
   box-shadow: 4px 4px 0 0 rgba(15, 21, 27, 0.5);
@@ -1280,6 +1287,7 @@ main {
   color: #fff;
   box-shadow: 2px 2px 0 0 rgba(15, 21, 27, 0.2);
   background: #3EA9FF;
+  text-align: center;
 }
 .contribute .button-survey a:hover {
   box-shadow: 4px 4px 0 0 rgba(15, 21, 27, 0.5);
@@ -1967,7 +1975,7 @@ p:nth-child(4) {
   text-align: left;
 }
 .stepper .slide .contact-us a {
-  width: 91px;
+  width: 161px;
   height: 24px;
   font-weight: 400;
   font-size: 18px;
@@ -1978,7 +1986,7 @@ p:nth-child(4) {
 }
 .stepper .slide .contact-us a:before {
   content: "";
-  width: 91px;
+  width: 161px;
   background: rgba(49, 85, 118, 0.5);
   position: absolute;
   bottom: 0;
@@ -2463,7 +2471,6 @@ footer .footer-info .contact-info p {
 }
 footer .footer-info .contact-info .contact-box {
   display: flex;
-  align-items: center;
   gap: 8px;
 }
 footer .footer-info .contact-info .contact-box > p {
